@@ -62,7 +62,7 @@ def main():
             color: white;
             padding: 10px;
             border-radius: 5px;
-            height: 200px;
+            height: 400px;
             overflow-y: auto;
         }
         </style>
@@ -70,7 +70,7 @@ def main():
 
     # Sidebar for navigation
     st.sidebar.image("img/icon.png", use_column_width=True)
-    st.sidebar.title('Company Insight LLM')
+    st.sidebar.title('Company Insight Assistant')
     st.sidebar.markdown('''
     This application serves as a platform for company search and analysis. It automatically extracts information from company homepages, annual reports, and relevant news articles using the News API, Azure Document Intelligence API, and GPT API.
     ''')
